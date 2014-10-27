@@ -13,6 +13,8 @@
 		3F79AE2019FE344F007BD01C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F79AE1F19FE344F007BD01C /* Images.xcassets */; };
 		3F79AE2319FE344F007BD01C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F79AE2119FE344F007BD01C /* LaunchScreen.xib */; };
 		3F79AE2F19FE344F007BD01C /* swiftMapAnnotationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F79AE2E19FE344F007BD01C /* swiftMapAnnotationTests.swift */; };
+		3F79AE3919FE34DE007BD01C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F79AE3819FE34DE007BD01C /* MapKit.framework */; };
+		3F79AE3B19FE3534007BD01C /* AnnotationPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F79AE3A19FE3534007BD01C /* AnnotationPoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		3F79AE2819FE344F007BD01C /* swiftMapAnnotationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftMapAnnotationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F79AE2D19FE344F007BD01C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F79AE2E19FE344F007BD01C /* swiftMapAnnotationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftMapAnnotationTests.swift; sourceTree = "<group>"; };
+		3F79AE3819FE34DE007BD01C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3F79AE3A19FE3534007BD01C /* AnnotationPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotationPoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F79AE3919FE34DE007BD01C /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +64,8 @@
 		3F79AE0A19FE344E007BD01C = {
 			isa = PBXGroup;
 			children = (
+				3F79AE3A19FE3534007BD01C /* AnnotationPoint.swift */,
+				3F79AE3819FE34DE007BD01C /* MapKit.framework */,
 				3F79AE1519FE344E007BD01C /* swiftMapAnnotation */,
 				3F79AE2B19FE344F007BD01C /* swiftMapAnnotationTests */,
 				3F79AE1419FE344E007BD01C /* Products */,
@@ -213,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F79AE1B19FE344F007BD01C /* ViewController.swift in Sources */,
+				3F79AE3B19FE3534007BD01C /* AnnotationPoint.swift in Sources */,
 				3F79AE1919FE344F007BD01C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
